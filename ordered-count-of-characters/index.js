@@ -1,4 +1,5 @@
 
+//solution 1
 const orderedCount = function (text) {
     const charsMap = new Map();
     for(let i = 0 ; i < text.length ; i++){
@@ -13,3 +14,8 @@ const orderedCount = function (text) {
     }
     return result
   }
+
+//solution 2
+// const orderedCount = function (text) {
+//     return [...new Set(text)].map(val => [val, text.split(val).length -1 ])
+// }
