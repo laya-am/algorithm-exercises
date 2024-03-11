@@ -1,2 +1,3 @@
 # code-wars
-My exercises from codewars.com
+
+My exercises from codewars.com and leetcode.com
